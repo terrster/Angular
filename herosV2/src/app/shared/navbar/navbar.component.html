@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" >
+      <img src="/src/assets/img/flash-4281077_1280.webp" alt="">
+      HerosApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav">
+        <li class="nav-item" (click)="goto(['home'])">
+          <a class="nav-link" aria-current="page" >Home</a>
+        </li>
+        <li class="nav-item" (click)="goto(['heros'])">
+          <a class="nav-link" >Heros</a>
+        </li>
+        <li class="nav-item" (click)="goto(['about'])">
+          <a class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item dropup">
+          <a class="nav-link dropdown-toggle"  id="dropdown10" data-toggle="dropdown" aria-expanded="false">Dropup</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown10">
+            <li><a class="dropdown-item" >Action</a></li>
+            <li><a class="dropdown-item" >Another action</a></li>
+            <li><a class="dropdown-item" >Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <form class="d-flex">
+        <input [formControl] = "searchform" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+  </div>
+</nav>
+
+
+

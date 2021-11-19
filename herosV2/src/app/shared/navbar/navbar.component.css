@@ -1,0 +1,12 @@
+li{
+    cursor: pointer;
+}
+li:hover{
+    background-color: #f4f4f4;
+}
+
+ul li.active a{
+	color: #5161ce;
+	background-color: transparent;
+	transition: all 0.7s;
+}

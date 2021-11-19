@@ -1,0 +1,25 @@
+<div class="mt-2">
+    <h1>Heros</h1>
+    <hr>
+    <div class="d-flex justify-content-center align-items-center fadeIn" *ngIf="loading">
+        <mat-spinner></mat-spinner>
+    </div>
+    <div class="row row-cols-1 row-col-md-3 g-4 mt-3 " *ngIf="!loading">
+        <div class="col card-group col-sm-4 fadeIn pe-auto" *ngFor="let hero of HerosList" >
+            <div class="card rounded" (click)="goto(['details', hero.nombre])">
+                <div class="card-body">
+                    <img [src] = "hero.img" class="card-img-top" alt="...">
+                    <hr>
+                    <div class="card-title text-center mt-2">
+                        <h3>{{hero.nombre}}</h3>
+                    </div>
+                    
+                    <button type="button" class="btn btn-dark ver_mas">Ver más</button>
+                    <div class="card-footer">
+                        <small>{{hero.aparicion}}</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

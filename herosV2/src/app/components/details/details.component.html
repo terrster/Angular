@@ -1,0 +1,48 @@
+<div class="container p-4 mt-3 bg-light rounded-3">
+    <div class="col">
+        <button type="button" routerLink = '/heros'  class="btn btn-dark">Atras</button>
+    </div>
+    <div class="row ">
+        <div class="col">
+            <img [src]="DetailHeros?.img" class="img-fluid" alt="..." />
+              
+        </div>
+        <div class="col ">
+                <div class="row mb-3">
+                  <div class="col ">
+                    <h1>{{DetailHeros?.nombre | uppercase}}</h1>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col bio">
+                    <p >
+                        {{DetailHeros?.bio}}
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-1">
+                  <div class="col">
+                    <p>
+                        Primera Aparicion: {{DetailHeros?.aparicion}}
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            Editorial:
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <!-- ngif/else Si cumple la condicion va a then si no va a else -->
+                        <div *ngIf="DetailHeros?.casa == 'Marvel'; then thenBlock else elseBlock"></div>
+                        <ng-template #thenBlock><img src="../../../assets/img/marvel.svg" class="img-fluid" alt="..." /></ng-template>
+                        <ng-template #elseBlock><img src="../../../assets/img/dc-comics-logo.png" class="img-fluid" alt="..." /></ng-template>
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+</div>

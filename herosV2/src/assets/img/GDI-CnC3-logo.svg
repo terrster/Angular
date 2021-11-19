@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    version="1.1"
+    viewBox="0 0 1052.4 734.95"
+  >
+  <g
+      transform="translate(88.03 -249.84)"
+    >
+    <path
+        fill="#231f20"
+        d="m-127.09-255.72 32.5 91.25-0.625 6.25 47.5 33.125-8.125 21.25 122.5 71.875-11.25 6.875-251.25-109.38 41.875 74.375 38.125 15-11.25 25 134.38 39.375-6.25 13.125-243.12-37.5 56.25 61.25 112.5 25 115.62 86.875 23.125 10.625 25.625 82.5c13.125 9.375 60 5 60 5l49.375 55-13.125 18.75 24.375 31.875 6.25-27.5 30-23.75 30.625 21.25-11.875-40-50 1.25-67.5-112.5 68.75-21.875 36.25 8.125-4.375 21.875 30.625-20.625 1.25-20-21.25-16.875-3.75-16.875-84.375-36.875 80-70.625-379.38-272.5zm240.62 61.875c-29.442 0-57.712 4.9625-84.062 14.062l78.438 75.062c4.0388-0.25 8.0862-0.375 12.188-0.375 107.52 0 194.69 87.165 194.69 194.69 0 72.186-39.268 135.19-97.625 168.81l18.5 32.031c80.619-43.5 135.38-128.75 135.38-226.78 0-142.21-115.29-257.5-257.5-257.5zm-256.88 275.59c9.2825 133.77 120.74 239.41 256.88 239.41 17.838 0 35.246-1.7965 52.062-5.25l-29.5-32.25c-5.2688 0.4275-10.62 0.625-16 0.625-104.9 0-190.43-82.945-194.53-186.84l-68.907-15.687z"
+        transform="translate(352.8 569.82)"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
